@@ -1,0 +1,39 @@
+.vid-content {
+	position: absolute;
+	z-index: 2;
+	top: 35%;
+	left: 35%;
+	text-align: center;
+}
+
+.shift-btn {
+	transform: translateY(-190%);
+}
+
+@media(max-width: 768px){
+	.vid-content {
+		text-align: left;
+	}
+
+	.par {
+		font-size: 20px;
+		margin-bottom: 50px;
+	}
+
+	.li-gr {
+		font-size: 11px;
+	}
+
+	.shift-btn {
+		transform: translateY(50%);
+	}
+
+	.card {
+		width: 100%;
+	}
+
+	.container-fluid {
+		width: 100%!important;
+	}
+
+}	
